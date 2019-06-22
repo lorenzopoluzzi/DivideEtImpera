@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" prefHeight="311.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="divideetimpera.control.FXML_LezioniController">
+   <children>
+      <Pane layoutX="15.0" layoutY="17.0" prefHeight="277.0" prefWidth="447.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label fx:id="benvenuto" layoutX="51.0" layoutY="14.0" prefHeight="25.0" prefWidth="190.0" textFill="#4059a9" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4059a9" height="47.0" layoutX="115.0" layoutY="68.0" stroke="BLACK" strokeType="INSIDE" width="217.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4059a9" height="47.0" layoutX="115.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="217.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4059a9" height="47.0" layoutX="115.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" width="217.0" />
+            <Text fill="WHITE" layoutX="135.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lezione 1" wrappingWidth="122.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="135.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lezione 2" wrappingWidth="122.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="135.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lezione 3" wrappingWidth="122.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="38.0" fitWidth="34.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/icons8-elderly-person-filled-100.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
